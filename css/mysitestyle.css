@@ -127,8 +127,16 @@ header{
 /*PROJECTS
 ---------------------------*/
 .projects{
-  background: #ACFCD9;
-  padding: 8px;
+/* background: #ACFCD9;*/
+background: hsla(159, 94%, 50%, 1);
+
+background: linear-gradient(180deg, hsla(159, 94%, 50%, 1) 25%, hsla(173, 67%, 56%, 1) 63%, hsla(187, 74%, 60%, 1) 94%);
+
+background: -moz-linear-gradient(180deg, hsla(159, 94%, 50%, 1) 25%, hsla(173, 67%, 56%, 1) 63%, hsla(187, 74%, 60%, 1) 94%);
+
+background: -webkit-linear-gradient(180deg, hsla(159, 94%, 50%, 1) 25%, hsla(173, 67%, 56%, 1) 63%, hsla(187, 74%, 60%, 1) 94%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#08F7A3", endColorstr="#43DAC8", GradientType=1 );
   border-radius: 8px;
 }
 .projects .button{
@@ -240,9 +248,14 @@ header{
 /*Footer
 ---------------------------*/
 footer{
-  background: #12263A;
+  background: hsla(43, 84%, 85%, 1);
+  background: linear-gradient(360deg, hsla(43, 84%, 85%, 0.7) 0%, hsla(325, 71%, 70%, 0.7) 50%, hsla(236, 67%, 55%, 0.7) 100%);
+  background: -moz-linear-gradient(360deg, hsla(43, 84%, 85%, 0.7) 0%, hsla(325, 71%, 70%, 0.7) 50%, hsla(236, 67%, 55%, 0.7) 100%);
+  background: -webkit-linear-gradient(360deg, hsla(43, 84%, 85%, 0.7) 0%, hsla(325, 71%, 70%, 0.7) 50%, hsla(236, 67%, 55%, 0.7) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F9E7BB", endColorstr="#E97CBB", GradientType=1 );
+
   padding: 10px;
-  color: #00FDDC;
+  color: #FFFFF;
 }
 footer p{
   text-align: center;
